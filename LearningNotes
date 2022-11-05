@@ -11,3 +11,17 @@ Docker technology have 03 core sub parts
 2. The Daemon ( a.k.a engine )
 3. The Orchastrator
 
+(1) Runtime - Bottom Layer
+a) runc  - Low level runtime ( one per running container )
+b) containerd - higher level runtime, talks to runc instances
+
+(2)  Engine / daemon ( Layer sitting top of Runtime Layer )
+a) Remote API
+b) Networking
+c) Volumes
+d) Image Mgt
+
+(3) Orchastration - ( Top Layer of Docker architecture concept )
+a) Swarm - manages clusters of doker nodes
+
+
