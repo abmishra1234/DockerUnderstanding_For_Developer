@@ -1,0 +1,13 @@
+Starting Docker
+
+Docker is key component of Containers.
+Currently Docker supports two platform - Linux, Window
+It creates, manages and even orchastrate the container
+This concept was started with dotCloud under Platform as a service. The tool created to manage this PAAS is names as Docker.
+Docker is short form of Dock Worker(someone who loads and unloads cargo from ship).
+
+Docker technology have 03 core sub parts 
+1. The runtime
+2. The Daemon ( a.k.a engine )
+3. The Orchastrator
+
